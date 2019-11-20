@@ -10258,12 +10258,55 @@ label.btn-link-like-3 input {
 
 .section-personnel .orbit-container img {
     position: absolute;
-    top: 50%;
+    top: 23px;
     transform: translate(7.5%,-51%);
-    right: 45px;
+    right: 2px;
     z-index: 101;
     margin-top: 5px;
 }
+
+
+
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+    from {
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+@keyframes rotating {
+    from {
+        -ms-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -ms-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+.rotating {
+    -webkit-animation: rotating 2s linear infinite;
+    -moz-animation: rotating 2s linear infinite;
+    -ms-animation: rotating 2s linear infinite;
+    -o-animation: rotating 2s linear infinite;
+    animation: rotating 2s linear infinite;
+}
+
+
+
+
 
 .section-personnel .orbit-container img.img-safety {
     right: -13px;
@@ -15880,7 +15923,8 @@ only screen and (min-resolution: 2dppx) {
     }
     .section-personnel .orbit-container img {
         width: 250px;
-        right: 79px;
+        right: 61px;
+        top: 70px;
     }
     .section-personnel .orbit-container img.img-safety {
         right: 25px;
@@ -16397,8 +16441,8 @@ only screen and (min-resolution: 2dppx) {
         font-size: 14px;
     }
     .section-personnel .orbit-container img {
-        right: 84px;
-        margin-top: -2px;
+        right: 59px;
+        margin-top: 12px;
     }
     .navbar-default .navbar-nav>li>a {
         font-size: 14px;
