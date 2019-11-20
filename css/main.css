@@ -10259,7 +10259,7 @@ label.btn-link-like-3 input {
 .section-personnel .orbit-container img {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translate(7.5%,-51%);
     right: 45px;
     z-index: 101;
     margin-top: 5px;
