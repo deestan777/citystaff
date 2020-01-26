@@ -1,20 +1,14 @@
 <template>
   <div id="app">
     <div class="flags">
-      <a @click="setLocale('ru')" href="#"
-      >
-        <flag class="locale" iso="ru"></flag
-        >
+      <a @click="setLocale('ru')" href="#">
+        <flag class="locale" iso="ru"></flag>
       </a>
-      <a @click="setLocale('ua')" href="#"
-      >
-        <flag class="locale" iso="ua"></flag
-        >
+      <a @click="setLocale('ua')" href="#">
+        <flag class="locale" iso="ua"></flag>
       </a>
-      <a @click="setLocale('en')" href="#"
-      >
-        <flag class="locale" iso="gb"></flag
-        >
+      <a @click="setLocale('en')" href="#">
+        <flag class="locale" iso="gb"></flag>
       </a>
     </div>
     <img alt="Vue logo" src="@/assets/logo.png"/>
