@@ -3,9 +3,10 @@ import VueI18n from "vue-i18n";
 
 Vue.use(VueI18n);
 export const i18n = new VueI18n({
-  Mainlocale: "ru",
-  Nativelocale: "ua",
-  InternationalLocale: "en",
+  locale: "ru",
+  officialLocale: "ua",
+  InterNationLocale: "en",
+  asianOceanLocale: "jp",
 
   messages: {
     brandName: "City Staff",
