@@ -2,7 +2,7 @@
     <div id="app">
         <div>
             <div class="logo">
-                <img alt="Vue logo" src="@/assets/logo.png"/>
+                <img alt="Vue logo" src="@/assets/logo.png" class="">
             </div>
             <div class="flags">
                 <a @click="setLocale('ru')" href="#">
